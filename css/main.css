@@ -1,0 +1,138 @@
+body{
+    background-color: #24353F;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.container{
+    position: fixed;
+    z-index: 5000;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    color: #17A2B8;
+
+    
+    
+
+}
+html{
+    text-transform: capitalize;
+}
+h1{
+    font-size: 3rem;
+}
+.width{
+    width: 65%;
+}
+#email,#password,#name {
+    border: 2px solid #9C9FA6;
+    border-radius: 4px;
+    background-color: transparent;
+    
+
+    
+}
+
+.form-control:focus{
+    border: 2px solid #19A2B8 !important;
+    border-radius: 4px !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+.form-control:active{
+    color: white !important;
+}
+
+#btn{
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid #19A2B8;
+    border-radius: 4px;
+    transition: 0.5s all;
+    
+
+}
+::placeholder{
+    opacity:0;
+    color: gray !important;
+    font-size: 20px !important;
+    text-transform: capitalize;
+    
+}
+.color{
+    color: #17A2B8;
+}
+#btn{
+    color: #17A2B8 !important;
+}
+#btn:hover{
+    background-color: #17A2B8;
+    color: white !important;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+.text{
+    color: #289C42;
+}
+.color-red{
+    color: red;
+}
+
+.nav-bar{
+    background-color: #24353F;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+    width: 100% ;
+}
+.logo{
+    padding-left: 200px;
+}
+.btun{
+    padding-right: 100px;
+    
+
+}
+.btun button{
+    width: 80px;
+    height: 40px;
+    background-color: transparent;
+    border:2px solid #FFC107;
+    border-radius: 4px;
+    color: wheat;
+    transition: 0.5s all;
+    
+
+}
+.btun button a{
+    font-size: 15px;
+    font-weight: bold;
+}
+.btun button:hover{
+    background-color: #FFC107;
+    color: white;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: wheat;
+    padding-left: 20px;
+}
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: wheat;
+}
+.text-info{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+
+}
+
+
