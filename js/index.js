@@ -135,4 +135,8 @@ btn.addEventListener("click",function(){
 })
 
 
+let buttn=document.getElementById("btun");
+buttn.addEventListener("click",function(){
+    location.replace("../html/index.html");
 
+})
