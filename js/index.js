@@ -128,7 +128,7 @@ function logIn(){
       }
 }
 
-let btnTwo=document.getElementById("btntwo");
+let btnTwo=document.getElementById("btn");
 btn.addEventListener("click",function(){
    logIn();
   
